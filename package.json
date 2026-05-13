@@ -1,0 +1,20 @@
+{
+  "name": "hp-trt-shorts",
+  "version": "1.0.0",
+  "description": "Automated YouTube Shorts pipeline for HP-TRT",
+  "main": "pipeline.js",
+  "scripts": {
+    "start": "node scheduler.js",
+    "pipeline": "node pipeline.js",
+    "status": "node status.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "axios": "^1.7.0",
+    "dotenv": "^16.4.0",
+    "form-data": "^4.0.0",
+    "googleapis": "^140.0.0",
+    "node-cron": "^3.0.3",
+    "winston": "^3.13.0"
+  }
+}
